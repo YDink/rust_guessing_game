@@ -5,5 +5,5 @@ fn main() {
 
     let mut guess =String::new();
     io::stdin().read_line(&mut guess).expect("Failed to read line");
-    println!("you guessed: {guess}")
+    println!("you guessed: {guess} and the upper case version is {} and the lower case version is {}",guess.to_uppercase(),guess.to_lowercase());
 }
